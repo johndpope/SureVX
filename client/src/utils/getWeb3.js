@@ -23,7 +23,7 @@ const getWeb3 = () =>
         console.log("Injected web3 detected.");
         resolve(web3);
       }
-      // Fallback to localhost; use dev console port by default...
+      // Fallback to localhost
       else {
         const provider = new Web3.providers.HttpProvider(
           "http://127.0.0.1:9545"
