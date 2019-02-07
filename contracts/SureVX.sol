@@ -16,6 +16,7 @@ contract CollatFactory {
 contract Collat { 
     
     // Variables here
+    // At this point I'm just testing Github access from the desktop app
     
     constructor () public {
         // TODO
