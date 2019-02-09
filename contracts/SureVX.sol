@@ -1,5 +1,15 @@
 pragma solidity ^0.5.1;
 
+// Import statements here
+// Import statements here
+
+/**
+  * @title
+  * @author Radial Manner
+  * @notice Factory contract creating a simple collateral position
+  *         between two counterparties.
+ */
+
 contract CollatFactory {
     address[] public collatAddresses;
     
